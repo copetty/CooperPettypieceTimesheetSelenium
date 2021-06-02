@@ -43,7 +43,7 @@ public class SubmitSteps {
 	@And("^User enters username$")
 	public void user_enters_username() throws Throwable {
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("/html[1]/body[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]")).sendKeys("cooper.pettypiece@revature.net");
+		driver.findElement(By.xpath("/html[1]/body[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]")).sendKeys("");
 	}
 
 	@And("^User clicks submit$")
@@ -54,7 +54,7 @@ public class SubmitSteps {
 	@And("^User enters password$")
 	public void user_enters_password() throws Throwable {
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("/html[1]/body[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1]")).sendKeys("#Longbow1556");
+		driver.findElement(By.xpath("/html[1]/body[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1]")).sendKeys("");
 	}
 
 	@And("^User clicks login$")
